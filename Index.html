@@ -1,0 +1,113 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Bootstrap CSS -->
+<link
+	href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+	rel="stylesheet"
+	integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+	crossorigin="anonymous">
+
+<title>Home page</title>
+</head>
+<body class="styling">
+	<h1 style="color: blue;">Our Foods</h1>
+	<p style="color: blue;">Feeding families morning , noon and night</p>
+	<div class="container">
+
+		<img src="Screenshot(291).png" class="img-fluid"
+			alt="Feeding Every Child" style="width:100%;">
+		<div class="text_block">
+		<h2>Feeding Hungry Children</h2>
+		<p>Feeding Hungry Children is on a mission to Abolish Child Hunger the world suffers from chronic malnutrition that stunts growth. The biggest reason kids are hungry, both in the U.S. and around the world, is poverty.</p>
+		</div>	
+	</div>
+	<h1 style="color: blue;">Enter the detailed address of a hungry
+		child , so that we can feed them</h1>
+	<form class="row g-2">
+		<div class="col-md-6">
+			<label for="inputEmail4" class="form-label">Email</label> <input
+				type="email" class="form-control" id="inputEmail4">
+		</div>
+
+		<div class="col-6">
+			<label for="inputAddress" class="form-label">Address</label> <input
+				type="text" class="form-control" id="inputAddress"
+				placeholder="1234 Main St">
+		</div>
+		<div class="col-6">
+			<label for="inputAddress2" class="form-label">Address 2</label> <input
+				type="text" class="form-control" id="inputAddress2"
+				placeholder="Apartment, studio, or floor">
+		</div>
+		<div class="col-md-6">
+			<label for="inputCity" class="form-label">City</label> <input
+				type="text" class="form-control" id="inputCity">
+		</div>
+		<div class="col-md-3">
+			<label for="inputState" class="form-label">State</label> <select
+				id="inputState" class="form-select">
+				<option selected>Choose...</option>
+				<option>...</option>
+			</select>
+		</div>
+		<div class="col-md-3">
+			<label for="inputZip" class="form-label">Zip</label> <input
+				type="text" class="form-control" id="inputZip">
+		</div>
+
+
+		<div class="col-12">
+			<button type="submit" class="btn btn-primary">Submit Details</button>
+		</div>
+	</form>
+
+	<!-- Optional JavaScript; choose one of the two! -->
+
+	<!-- Option 1: Bootstrap Bundle with Popper -->
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+		crossorigin="anonymous"></script>
+
+	<!-- Option 2: Separate Popper and Bootstrap JS -->
+	<!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+<style>
+@keyframes example{
+from{background-color:teal;}
+to{background-color:yellow;}
+}
+
+.text_block{
+position:absolute;
+color:white;
+bottom:20px;
+right:20px;
+padding-left:80px;
+padding-right:40px;
+opacity:0.8;
+text-shadow:2px 2px  red;
+
+}
+.container{
+border-radius:25px;
+}
+.styling{
+background-color:lime;
+animation-name:example;
+animation-duration:30s;
+animation-iteration-count:5;
+}
+
+</style>
+
+</html>
